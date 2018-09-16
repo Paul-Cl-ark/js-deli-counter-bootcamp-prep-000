@@ -23,7 +23,7 @@ function currentLine(katzDeliLine) {
   return `The line is currently: ${currentLine}.`;
   }
 }
-
+}
 function theBeatlesPlay(a, b) {
   var c = [];
     for (var i = 0; i < a.length; i++) {
