@@ -19,7 +19,7 @@ function currentLine(line) {
   } else {
     var deliLine = [];
   for (var i = 0; i < line.length; i++) {
-    deliLine.push(`${i+1}. ${line[i]}`); 
+    deliLine.push(` ${i+1}. ${line[i]}`); 
     }
     return ("The line is currently:" + deliLine);
   }
