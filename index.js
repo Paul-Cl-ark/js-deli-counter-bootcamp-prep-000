@@ -1,7 +1,7 @@
 function takeANumber(katzDeliLine, name) {
   katzDeliLine.push(name);
-  let place = katzDeliLine.indexOf(name) + 1;
-    return `Welcome, ${name}. You are number ${place} in line.`;
+    let place = katzDeliLine.indexOf(name) + 1;
+  return `Welcome, ${name}. You are number ${place} in line.`;
 }
 
 function nowServing(katzDeliLine) {
@@ -23,11 +23,4 @@ function currentLine(line) {
     }
     return ("The line is currently:" + deliLine);
   }
-}
-function theBeatlesPlay(a, b) {
-  var c = [];
-    for (var i = 0; i < a.length; i++) {
-      c.push(a[i] + " plays " + b[i]);
-    }
-  return c;
 }
