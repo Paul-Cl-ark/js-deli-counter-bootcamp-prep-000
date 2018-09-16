@@ -13,15 +13,15 @@ function nowServing(katzDeliLine) {
   }
 }
 
-function currentLine(katzDeliLine) {
-  if (katzDeliLine.length === 0) {
+function currentLine(line) {
+  if (line.length === 0) {
   return "The line is currently empty.";
   } else {
-    var currentLine = [];
-  for (var i = 0; i < currentLine.length; i++) {
-    currentLine.push(`${i+1}. ${katzDeliLine[i]}`); 
+    var deliLine = [];
+  for (var i = 0; i < deliLine.length; i++) {
+    currentLine.push(`${i+1}. ${line[i]}`); 
     }
-    return ("The line is currently:" + currentLine);
+    return ("The line is currently:" + deliLine);
   }
 }
 function theBeatlesPlay(a, b) {
