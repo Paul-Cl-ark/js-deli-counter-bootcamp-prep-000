@@ -14,7 +14,9 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine, name) {
-  let currentLine = []
+  let currentLine = [];
+  for (i = 0; i < currentLine.length; i++)
+  currentLine.push()
   if (katzDeliLine.length === 0) {
   return "The line is currently empty.";
   } else {
@@ -22,13 +24,10 @@ function currentLine(katzDeliLine, name) {
   }
 }
 
-function iLoveTheBeatles(num) {
-  var array = [];
-  
-  do {
-        array.push('I love the Beatles!');
-        num++;
-  }
-    while (num < 15);
-    return array;
+function theBeatlesPlay(a, b) {
+  var c = [];
+    for (var i = 0; i < a.length; i++) {
+      c.push(a[i] + " plays " + b[i]);
+    }
+  return c;
 }
